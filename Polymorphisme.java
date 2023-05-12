@@ -10,6 +10,10 @@ class Polymorphisme {
     vehiculeNormale.getAvancer(distance);
     superVehicule.getAvancer(distance);
 
+    boolean test = vehiculeNormale.equals(superVehicule);
+
+    System.out.println("Est-ce que ces 2 vehicules sont indentique : " + test);
+
   }
 }
 
